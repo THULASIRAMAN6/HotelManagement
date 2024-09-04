@@ -77,8 +77,8 @@ class Hotel {
 
     static Connection connectToDatabase() throws SQLException {
         String url = "jdbc:mysql://127.0.0.1:3306/hotel_db";
-        String user = "root";  // replace with your MySQL username
-        String password = "7397@Bitian";  // replace with your MySQL password
+        String user = "root";  
+        String password = "7397@Bitian";  
         return DriverManager.getConnection(url, user, password);
     }
 
