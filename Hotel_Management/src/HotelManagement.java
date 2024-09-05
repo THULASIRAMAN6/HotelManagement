@@ -76,9 +76,9 @@ class Hotel {
     static Scanner sc = new Scanner(System.in);
 
     static Connection connectToDatabase() throws SQLException {
-        String url = "jdbc:mysql://127.0.0.1:3306/hotel_db";
+        String url = "jdbc:mysql://......:3306/hotel_";
         String user = "root";  
-        String password = "7397@Bitian";  
+        String password = "";  
         return DriverManager.getConnection(url, user, password);
     }
 
